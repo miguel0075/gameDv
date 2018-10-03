@@ -31,5 +31,15 @@ make vector crear estructuras
 (nodo) SetActionLocation  Se utiliza para mover el objeto y colocarle la nueva ubicacion.
 
 custon event  para crear un nuevo evento
+ forechLoo para verificar los elemento de un arry
+
+make array para agregar elemento a un array
+
+DELAY
+
+MACRO se utiliza para usar nodos latentes 
+LIBRERIA DE FUNCIONES : para agrupar funciones que 
+se utilizaran en varios niveles.
+
 
 
