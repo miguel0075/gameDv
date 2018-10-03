@@ -1,0 +1,35 @@
+
+
+EVENTOS 
+BLUEPRINT LENGUAJE VISUAL UTILIZANDO NODOS.
+LEVE BLUEPRINT
+ES DEL NIVEL Y POR LO TANTO SOLO EXISTIRA UNO POR CADA NIVEL
+
+BLUEPRINT CLASS
+ESTE SE UTILIZA PARA DARLE FUNCIONALIDAD A TODOS LOS DE MAS OBJETOS
+QUE NO SON DE NIVEL
+
+EVENT GRAF 
+(ENVENTOS)CUSTON EVENT CREA UN NUEVO EVENTO.
+(FUNCION) PRINTSTRING SE UTILIZA PARA IMPRIMIR UN MENSAJE EN PANTALLA.
+(VARIABLE) OBJECTS TYPES ESTAS VARIABLES SE UTILIZAN PARA  HACER UNA REFERENCIA EN PARTICULAR
+(VARIABLE) Enums: Los posible valores estan definido previamente.
+
+(VARIABLE)STRUCTURE COLECCION DE OTRAS VARIABLE QUE ESTAN RELACIONADAS
+(INTERFACE) COLECCION DE OTRAS FUNCIONES, PERO DÓNDE SE DEFINE EL NOMBRE Y LOS PARAMETROS
+
+branch   comparativa de tipo boolean
+text se utiliza para mostrar el texto que veran los usuarios para manipular su contenido hay que convertir a string
+integer  datos entero de tipo numerico
+name  este tipo de variable no sabe distinguir entre mayuscula y minusculas solo se utiliza para nombrar objetos y es la variable mas pequeña y es recomendable usar en multijugador
+para manipularla hay que convertila a string.
+
+appent se utiliza para unir dos o mas cadenas de texto
+
+variables de estrutura y referencia de objetos
+make vector crear estructuras
+(nodo) SetActionLocation  Se utiliza para mover el objeto y colocarle la nueva ubicacion.
+
+custon event  para crear un nuevo evento
+
+
