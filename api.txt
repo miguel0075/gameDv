@@ -1,4 +1,4 @@
-gia de codigo.
+Guia de codigo.
 
 EVENTOS 
 BLUEPRINT LENGUAJE VISUAL UTILIZANDO NODOS.
@@ -13,6 +13,7 @@ EVENT GRAF
 (ENVENTOS)CUSTON EVENT CREA UN NUEVO EVENTO.
 (FUNCION) PRINTSTRING SE UTILIZA PARA IMPRIMIR UN MENSAJE EN PANTALLA.
 (VARIABLE) OBJECTS TYPES ESTAS VARIABLES SE UTILIZAN PARA  HACER UNA REFERENCIA EN PARTICULAR
+
 (VARIABLE) Enums: Los posible valores estan definido previamente.
 
 (VARIABLE)STRUCTURE COLECCION DE OTRAS VARIABLE QUE ESTAN RELACIONADAS
@@ -35,11 +36,37 @@ custon event  para crear un nuevo evento
 
 make array para agregar elemento a un array
 
-DELAY
+DELAY se utiliza para prolongar el proceso de un evento.
 
 MACRO se utiliza para usar nodos latentes 
 LIBRERIA DE FUNCIONES : para agrupar funciones que 
 se utilizaran en varios niveles.
 
+
+clases:
+
+StaticMesh:
+se traduce como la malla estatica y se refiere  a un modelo 3D pero
+que no tiene movimiento y que por lo tanto no tendras parte moviles.
+
+SkeleitalMesh:
+Se traduce como malla con esqueleto 3D que tendra movimiento y que 
+tendra parte moviles por ejemplo pesonake , los enemigos un jefe final 
+etc.
+
+Herencia Es un termino de la programacion orientada objetos, cuando una 
+clase heredada de una clase padre esta clase hijo toma toda las 
+propiedades de su padre.
+
+Objetos
+Actor: son lo que tendran una direcion rotacion y escala.
+Component: Es una pieza de funcionalidad que se le debe de agregar a un 
+actor , un componente solo puede existir formando parte del autor.
+
+Controller: Es un tipo de objeto que no tiene cuerpo y sirve para 
+controlar el autor 
+
+Hay dos tipos PlayerController y AI controller; Este  se encarga de 
+analizar el entorno para tomar una desicion.
 
 
