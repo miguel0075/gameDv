@@ -70,3 +70,12 @@ Hay dos tipos PlayerController y AI controller; Este  se encarga de
 analizar el entorno para tomar una desicion.
 
 
+Clases que heredan de la clase autor
+
+Pawn es un tipo de actor que comunmente representa a un personaje que no 
+es un humanoide y este puede ser controlado por un cotroller de los dos 
+tipos.
+
+Charater Es un tipo de Pawn que ya contiene todas las funcionalidades 
+para poder caminar, representa un humanoide que sea bipedo.
+
