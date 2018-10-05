@@ -79,3 +79,7 @@ tipos.
 Charater Es un tipo de Pawn que ya contiene todas las funcionalidades 
 para poder caminar, representa un humanoide que sea bipedo.
 
+Rigibody
+Componete para colocar la fisica a los objetos.
+foce fuerza 
+addForce(vector3.direccion * velocidad , tipo de fuerza.(forceMode))
